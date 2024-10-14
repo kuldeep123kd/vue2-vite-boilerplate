@@ -1,0 +1,29 @@
+{
+  "name": "vue2-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "@vitejs/plugin-legacy": "^4.0.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "sass": "~1.32.13",
+    "vite": "^4.4.5",
+    "vite-plugin-html": "^3.2.2",
+    "vite-plugin-vue2": "^2.0.3",
+    "vue-template-compiler": "^2.7.16"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue2": "^2.3.1",
+    "bootstrap": "^4.6.0",
+    "vue": "^2.7.16",
+    "vue-router": "^3.6.5",
+    "vuex": "^3.6.2"
+  }
+}
